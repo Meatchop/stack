@@ -7,13 +7,12 @@ class Stack {
 private:
     size_t capacity;
     size_t size;
-    struct Node *head;
+    struct Node<T> *head;
 public:
     Stack(size_t c);
     void pop();
-    struct Node *peek();
-    struct Node top();
-    void push(T elem);
-}
+    struct Node<T> *peek();
+    void push(struct Node<T> &elem);
+};
 
 #endif

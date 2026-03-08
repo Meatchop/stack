@@ -1,29 +1,23 @@
 #include "Stack.h"
-Stack::Stack(size_t c): capacity(c), size(0)
+template <typename T>
+Stack<T>::Stack(size_t c): capacity(c), size(0), head(nullptr)
 {
-}
-struct Node *peek(){
+};
+struct *Node<T> Stack<T>::peek(){
     return this->head;
-}
-void pop(){
-    if(thi.size == 0) return;
+};
+void Stack<T>::pop(){
+    if(this->size == 0) return;
     size--;
-    this.head = peek()->next;
-}
-struct Node top()
+    delete this->head;
+    this->head = peek()->next;
+};
+void Stack<T>::push(struct Node<T> &t)
 {
-    Node t = *peek();
-    return t;
-}
-void push(T elem)
-{
-    if(this.capacity==this.size)
+    if(this.capacity==this->size)
     {
         return;
     }
-    this.size++;
-    Node t;
-    t.next = &this.head;
-    t.value = elem;
-    this.head = &t
-}
+    this->size++;
+    this->head = t;
+};
