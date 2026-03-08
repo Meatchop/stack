@@ -3,7 +3,7 @@ template <typename T>
 Stack<T>::Stack(size_t c): capacity(c), size(0), head(nullptr)
 {
 };
-struct *Node<T> Stack<T>::peek(){
+struct Node<T>* Stack<T>::peek(){
     return this->head;
 };
 void Stack<T>::pop(){
