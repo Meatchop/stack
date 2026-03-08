@@ -9,7 +9,7 @@ int main()
     n1.value = 1;
     struct Node<int> n2;
     n2.value = 2;
-    Stack<int> s = Stack(10);
+    Stack<int> s = Stack<int>(10);
     s.push(n1);
     s.push(n2);
     //test
