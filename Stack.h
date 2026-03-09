@@ -9,10 +9,10 @@ private:
     size_t size;
     struct Node<T> *head;
 public:
-    Stack<T>(size_t c);
+    Stack(size_t c);
     void pop();
     struct Node<T> *peek();
-    void push(struct Node<T> &elem);
+    void push(T t);
 };
 
 #endif

@@ -5,13 +5,15 @@
 1514140574 source:c:\users\zairw\documents\2026sem1\ict283\week3\stackexecise\main.cpp
 	<iostream>
 
-1514140574 source:c:\users\zairw\documents\2026sem1\ict283\week3\stackexecise\stack\main.cpp
+1773028402 source:c:\users\zairw\documents\2026sem1\ict283\week3\stackexecise\stack\main.cpp
 	<iostream>
-
-1772971747 source:c:\users\zairw\documents\2026sem1\ict283\week3\stackexecise\stack\stack.cpp
+	"Node.h"
 	"Stack.h"
 
-1772971310 c:\users\zairw\documents\2026sem1\ict283\week3\stackexecise\stack\stack.h
+1773028311 source:c:\users\zairw\documents\2026sem1\ict283\week3\stackexecise\stack\stack.cpp
+	"Stack.h"
+
+1773028548 c:\users\zairw\documents\2026sem1\ict283\week3\stackexecise\stack\stack.h
 	"Node.h"
 	<cstddef>
 

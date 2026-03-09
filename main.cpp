@@ -5,11 +5,9 @@ using namespace std;
 
 int main()
 {
-    struct Node<int> n1;
-    n1.value = 1;
-    struct Node<int> n2;
-    n2.value = 2;
-    Stack<int> s = Stack<int>(10);
+    int n1 = 1;
+    int n2 = 2;
+    Stack<int> s(10);
     s.push(n1);
     s.push(n2);
     //test
