@@ -5,11 +5,10 @@
 template <typename T>
 class Stack {
 private:
-    size_t capacity;
     size_t size;
     struct Node<T> *head;
 public:
-    Stack(size_t c);
+    Stack();
     void pop();
     struct Node<T> *peek();
     void push(T t);

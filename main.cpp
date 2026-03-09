@@ -7,7 +7,7 @@ int main()
 {
     int n1 = 1;
     int n2 = 2;
-    Stack<int> s(10);
+    Stack<int> s;
     s.push(n1);
     s.push(n2);
     //test
