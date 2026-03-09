@@ -11,8 +11,9 @@ template <typename T>
 void Stack<T>::pop(){
     if(size == 0) return;
     size--;
-    delete head;
+    Node<T> *temp =head;
     head = peek()->next;
+    delete temp;
 }
 template <typename T>
 void Stack<T>::push(T t)
@@ -21,7 +22,7 @@ void Stack<T>::push(T t)
     temp->value = t;
     temp->next = head;
     size++;
-    head = t;
+    head = temp;
 }
 
 template class Stack<int>;
